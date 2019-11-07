@@ -55,6 +55,12 @@ router.get('/:id/:page', (req, res, next) => {
             collection:collection.toArray(),
             pagination:collection.pagination
          };
+
+         for(var i in collection.toArray()) {
+            console.log(collection.toArray()[i].attributes);
+            console.log(collection.toArray()[i].relations.user.attributes);
+         }
+
          res.render('home', data);
    }).catch((err) => {
       res.status(500).json({error: true, data: {message: err.message}});

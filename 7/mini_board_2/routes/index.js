@@ -56,7 +56,9 @@ router.get('/:page', (req, res, next) => {
          pagination:collection.pagination
       };
 
-      // console.log(collection.toArray()[0].relations.user.attributes.name);
+      for(var i in collection.toArray()) {
+         console.log(collection.toArray()[i].relations.user.attributes);
+      }
 
       res.render('index', data);
    }).catch((err) => {
