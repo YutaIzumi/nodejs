@@ -1,0 +1,10 @@
+{"id":"kamonohashi","msg":"これでどうなる？"}
+{"id":"kamonohashi","msg":"kamo"}
+{"id":"kamonohashi","msg":"テストです。"}
+{"id":"kamonohashi","msg":"テストです。"}
+{"id":"kamonohashi","msg":"テストです。"}
+{"id":"kamonohashi","msg":"こんにちわ"}
+{"id":"kamonohashi","msg":"かもかも"}
+{"id":"kamonohashi","msg":"かもかも"}
+{"id":"kamonohashi","msg":"かもかも"}
+{"id":"kappa","msg":"あああ"}
